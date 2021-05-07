@@ -1,0 +1,582 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.1">
+  <Nodes>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="114" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\audei\Documents\Tableau\Population Growth 2010-19.xlsx|||`NST01$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>3</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Population Growth 2010-19.xlsx
+Query=`NST01$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Geographic Area" size="646" source="File: C:\Users\audei\Documents\Tableau\Population Growth 2010-19.xlsx|||`NST01$`" type="V_String" />
+            <Field name="2010-04-01" size="255" source="File: C:\Users\audei\Documents\Tableau\Population Growth 2010-19.xlsx|||`NST01$`" type="V_String" />
+            <Field name="F3" size="255" source="File: C:\Users\audei\Documents\Tableau\Population Growth 2010-19.xlsx|||`NST01$`" type="V_String" />
+            <Field name="Population Estimate (as of July 1)" source="File: C:\Users\audei\Documents\Tableau\Population Growth 2010-19.xlsx|||`NST01$`" type="Double" />
+            <Field name="F5" source="File: C:\Users\audei\Documents\Tableau\Population Growth 2010-19.xlsx|||`NST01$`" type="Double" />
+            <Field name="F6" source="File: C:\Users\audei\Documents\Tableau\Population Growth 2010-19.xlsx|||`NST01$`" type="Double" />
+            <Field name="F7" source="File: C:\Users\audei\Documents\Tableau\Population Growth 2010-19.xlsx|||`NST01$`" type="Double" />
+            <Field name="F8" source="File: C:\Users\audei\Documents\Tableau\Population Growth 2010-19.xlsx|||`NST01$`" type="Double" />
+            <Field name="F9" source="File: C:\Users\audei\Documents\Tableau\Population Growth 2010-19.xlsx|||`NST01$`" type="Double" />
+            <Field name="F10" source="File: C:\Users\audei\Documents\Tableau\Population Growth 2010-19.xlsx|||`NST01$`" type="Double" />
+            <Field name="F11" source="File: C:\Users\audei\Documents\Tableau\Population Growth 2010-19.xlsx|||`NST01$`" type="Double" />
+            <Field name="F12" source="File: C:\Users\audei\Documents\Tableau\Population Growth 2010-19.xlsx|||`NST01$`" type="Double" />
+            <Field name="F13" source="File: C:\Users\audei\Documents\Tableau\Population Growth 2010-19.xlsx|||`NST01$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="234" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="2010-04-01" selected="False" />
+            <SelectField field="F3" selected="False" />
+            <SelectField field="Population Estimate (as of July 1)" selected="True" rename="2010" />
+            <SelectField field="F5" selected="True" rename="2011" />
+            <SelectField field="F6" selected="True" rename="2012" />
+            <SelectField field="F7" selected="True" rename="2013" />
+            <SelectField field="F8" selected="True" rename="2014" />
+            <SelectField field="F9" selected="True" rename="2015" />
+            <SelectField field="F10" selected="True" rename="2016" />
+            <SelectField field="F11" selected="True" rename="2017" />
+            <SelectField field="F12" selected="True" rename="2018" />
+            <SelectField field="F13" selected="True" rename="2019" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings>
+        <Position x="354" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Ranges">2-57</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="SelectRecords.yxmc" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings>
+        <Position x="474" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"Geographic Area","2010","2011","2012","2013","2014","2015","2016","2017","2018","2019"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">True</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="114" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\audei\Documents\Tableau\Housing Units.xlsx|||`NST-EST2019-ANNHU$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>3</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Housing Units.xlsx
+Query=`NST-EST2019-ANNHU$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Geographic Area" size="646" source="File: C:\Users\audei\Documents\Tableau\Housing Units.xlsx|||`NST-EST2019-ANNHU$`" type="V_String" />
+            <Field name="2010-04-01" size="255" source="File: C:\Users\audei\Documents\Tableau\Housing Units.xlsx|||`NST-EST2019-ANNHU$`" type="V_String" />
+            <Field name="F3" size="255" source="File: C:\Users\audei\Documents\Tableau\Housing Units.xlsx|||`NST-EST2019-ANNHU$`" type="V_String" />
+            <Field name="Housing Unit Estimate (as of July 1)" source="File: C:\Users\audei\Documents\Tableau\Housing Units.xlsx|||`NST-EST2019-ANNHU$`" type="Double" />
+            <Field name="F5" source="File: C:\Users\audei\Documents\Tableau\Housing Units.xlsx|||`NST-EST2019-ANNHU$`" type="Double" />
+            <Field name="F6" source="File: C:\Users\audei\Documents\Tableau\Housing Units.xlsx|||`NST-EST2019-ANNHU$`" type="Double" />
+            <Field name="F7" source="File: C:\Users\audei\Documents\Tableau\Housing Units.xlsx|||`NST-EST2019-ANNHU$`" type="Double" />
+            <Field name="F8" source="File: C:\Users\audei\Documents\Tableau\Housing Units.xlsx|||`NST-EST2019-ANNHU$`" type="Double" />
+            <Field name="F9" source="File: C:\Users\audei\Documents\Tableau\Housing Units.xlsx|||`NST-EST2019-ANNHU$`" type="Double" />
+            <Field name="F10" source="File: C:\Users\audei\Documents\Tableau\Housing Units.xlsx|||`NST-EST2019-ANNHU$`" type="Double" />
+            <Field name="F11" source="File: C:\Users\audei\Documents\Tableau\Housing Units.xlsx|||`NST-EST2019-ANNHU$`" type="Double" />
+            <Field name="F12" source="File: C:\Users\audei\Documents\Tableau\Housing Units.xlsx|||`NST-EST2019-ANNHU$`" type="Double" />
+            <Field name="F13" source="File: C:\Users\audei\Documents\Tableau\Housing Units.xlsx|||`NST-EST2019-ANNHU$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="234" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="2010-04-01" selected="False" />
+            <SelectField field="F3" selected="False" />
+            <SelectField field="Housing Unit Estimate (as of July 1)" selected="True" rename="2010" />
+            <SelectField field="F5" selected="True" rename="2011" />
+            <SelectField field="F6" selected="True" rename="2012" />
+            <SelectField field="F7" selected="True" rename="2013" />
+            <SelectField field="F8" selected="True" rename="2014" />
+            <SelectField field="F9" selected="True" rename="2015" />
+            <SelectField field="F10" selected="True" rename="2016" />
+            <SelectField field="F11" selected="True" rename="2017" />
+            <SelectField field="F12" selected="True" rename="2018" />
+            <SelectField field="F13" selected="True" rename="2019" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings>
+        <Position x="366" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Ranges">2-57</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="SelectRecords.yxmc" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings>
+        <Position x="474" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"Geographic Area","2010","2011","2012","2013","2014","2015","2016","2017","2018","2019"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">True</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="570" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields>
+            <Field field="Geographic Area" />
+          </KeyFields>
+          <DataFields>
+            <Field field="Geographic Area" selected="False" />
+            <Field field="2010" selected="True" />
+            <Field field="2011" selected="True" />
+            <Field field="2012" selected="True" />
+            <Field field="2013" selected="True" />
+            <Field field="2014" selected="True" />
+            <Field field="2015" selected="True" />
+            <Field field="2016" selected="True" />
+            <Field field="2017" selected="True" />
+            <Field field="2018" selected="True" />
+            <Field field="2019" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="570" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields>
+            <Field field="Geographic Area" />
+          </KeyFields>
+          <DataFields>
+            <Field field="Geographic Area" selected="False" />
+            <Field field="2010" selected="True" />
+            <Field field="2011" selected="True" />
+            <Field field="2012" selected="True" />
+            <Field field="2013" selected="True" />
+            <Field field="2014" selected="True" />
+            <Field field="2015" selected="True" />
+            <Field field="2016" selected="True" />
+            <Field field="2017" selected="True" />
+            <Field field="2018" selected="True" />
+            <Field field="2019" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="894" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Name" selected="True" rename="Year" />
+            <SelectField field="Value" selected="True" rename="Population Growth" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="918" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Name" selected="True" rename="Year" />
+            <SelectField field="Value" selected="True" rename="Housing Units" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="678" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="False" />
+          <UpdateField_Name>Geographic Area</UpdateField_Name>
+          <CreateField_Name>Pop Growth Rate</CreateField_Name>
+          <CreateField_Type>Double</CreateField_Type>
+          <CreateField_Size>8</CreateField_Size>
+          <OtherRows>Empty</OtherRows>
+          <NumRows value="1" />
+          <Expression>IF [Name] = "2010"
+THEN  ToNumber("0")
+ELSE (([Value] - [Row-1:Value]) / [Row-1:Value])*100
+ENDIF</Expression>
+          <GroupByFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>IF [Name] = "2010"
+THEN  ToNumber("0")
+ELSE (([Value] - [Row-...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="678" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="False" />
+          <UpdateField_Name>Geographic Area</UpdateField_Name>
+          <CreateField_Name>Housing Growth Rate</CreateField_Name>
+          <CreateField_Type>Double</CreateField_Type>
+          <CreateField_Size>8</CreateField_Size>
+          <OtherRows>Empty</OtherRows>
+          <NumRows value="1" />
+          <Expression>IF [Name] = "2010"
+THEN  ToNumber("0")
+ELSE (([Value] - [Row-1:Value]) / [Row-1:Value])*100
+ENDIF</Expression>
+          <GroupByFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>IF [Name] = "2010"
+THEN  ToNumber("0")
+ELSE (([Value] - [Row-...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1026" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Year" />
+            <Field field="Geographic Area" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Year" />
+            <Field field="Geographic Area" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_Geographic Area" selected="False" rename="Right_Geographic Area" input="Right_" />
+                <SelectField field="Right_Year" selected="False" rename="Right_Year" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1134" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">C:\Users\audei\Documents\Tableau\Housing.xlsx|||HousingRate</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <SkipFieldNames>False</SkipFieldNames>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Housing.xlsx
+Query=HousingRate</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="11" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output26" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="15" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output26" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="28" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="28" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Join" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>HousingRate</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

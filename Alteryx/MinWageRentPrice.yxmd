@@ -1,0 +1,551 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\audei\Documents\Tableau\Apartment_List_Rent_Estimates_State_2021_4.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Apartment_List_Rent_Estimates_State_2021_4.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="State_Name" size="254" source="File: C:\Users\audei\Documents\Tableau\Apartment_List_Rent_Estimates_State_2021_4.csv" type="V_String" />
+            <Field name="FIPS_Code" size="254" source="File: C:\Users\audei\Documents\Tableau\Apartment_List_Rent_Estimates_State_2021_4.csv" type="V_String" />
+            <Field name="Population" size="254" source="File: C:\Users\audei\Documents\Tableau\Apartment_List_Rent_Estimates_State_2021_4.csv" type="V_String" />
+            <Field name="Bedroom_Size" size="254" source="File: C:\Users\audei\Documents\Tableau\Apartment_List_Rent_Estimates_State_2021_4.csv" type="V_String" />
+            <Field name="1/31/2017" size="254" source="File: C:\Users\audei\Documents\Tableau\Apartment_List_Rent_Estimates_State_2021_4.csv" type="V_String" />
+            <Field name="2/28/2017" size="254" source="File: C:\Users\audei\Documents\Tableau\Apartment_List_Rent_Estimates_State_2021_4.csv" type="V_String" />
+            <Field name="3/31/2017" size="254" source="File: C:\Users\audei\Documents\Tableau\Apartment_List_Rent_Estimates_State_2021_4.csv" type="V_String" />
+            <Field name="4/30/2017" size="254" source="File: C:\Users\audei\Documents\Tableau\Apartment_List_Rent_Estimates_State_2021_4.csv" type="V_String" />
+            <Field name="5/31/2017" size="254" source="File: C:\Users\audei\Documents\Tableau\Apartment_List_Rent_Estimates_State_2021_4.csv" type="V_String" />
+            <Field name="6/30/2017" size="254" source="File: C:\Users\audei\Documents\Tableau\Apartment_List_Rent_Estimates_State_2021_4.csv" type="V_String" />
+            <Field name="7/31/2017" size="254" source="File: C:\Users\audei\Documents\Tableau\Apartment_List_Rent_Estimates_State_2021_4.csv" type="V_String" />
+            <Field name="8/31/2017" size="254" source="File: C:\Users\audei\Documents\Tableau\Apartment_List_Rent_Estimates_State_2021_4.csv" type="V_String" />
+            <Field name="9/30/2017" size="254" source="File: C:\Users\audei\Documents\Tableau\Apartment_List_Rent_Estimates_State_2021_4.csv" type="V_String" />
+            <Field name="10/31/2017" size="254" source="File: C:\Users\audei\Documents\Tableau\Apartment_List_Rent_Estimates_State_2021_4.csv" type="V_String" />
+            <Field name="11/30/2017" size="254" source="File: C:\Users\audei\Documents\Tableau\Apartment_List_Rent_Estimates_State_2021_4.csv" type="V_String" />
+            <Field name="12/31/2017" size="254" source="File: C:\Users\audei\Documents\Tableau\Apartment_List_Rent_Estimates_State_2021_4.csv" type="V_String" />
+            <Field name="1/31/2018" size="254" source="File: C:\Users\audei\Documents\Tableau\Apartment_List_Rent_Estimates_State_2021_4.csv" type="V_String" />
+            <Field name="2/28/2018" size="254" source="File: C:\Users\audei\Documents\Tableau\Apartment_List_Rent_Estimates_State_2021_4.csv" type="V_String" />
+            <Field name="3/31/2018" size="254" source="File: C:\Users\audei\Documents\Tableau\Apartment_List_Rent_Estimates_State_2021_4.csv" type="V_String" />
+            <Field name="4/30/2018" size="254" source="File: C:\Users\audei\Documents\Tableau\Apartment_List_Rent_Estimates_State_2021_4.csv" type="V_String" />
+            <Field name="5/31/2018" size="254" source="File: C:\Users\audei\Documents\Tableau\Apartment_List_Rent_Estimates_State_2021_4.csv" type="V_String" />
+            <Field name="6/30/2018" size="254" source="File: C:\Users\audei\Documents\Tableau\Apartment_List_Rent_Estimates_State_2021_4.csv" type="V_String" />
+            <Field name="7/31/2018" size="254" source="File: C:\Users\audei\Documents\Tableau\Apartment_List_Rent_Estimates_State_2021_4.csv" type="V_String" />
+            <Field name="8/31/2018" size="254" source="File: C:\Users\audei\Documents\Tableau\Apartment_List_Rent_Estimates_State_2021_4.csv" type="V_String" />
+            <Field name="9/30/2018" size="254" source="File: C:\Users\audei\Documents\Tableau\Apartment_List_Rent_Estimates_State_2021_4.csv" type="V_String" />
+            <Field name="10/31/2018" size="254" source="File: C:\Users\audei\Documents\Tableau\Apartment_List_Rent_Estimates_State_2021_4.csv" type="V_String" />
+            <Field name="11/30/2018" size="254" source="File: C:\Users\audei\Documents\Tableau\Apartment_List_Rent_Estimates_State_2021_4.csv" type="V_String" />
+            <Field name="12/31/2018" size="254" source="File: C:\Users\audei\Documents\Tableau\Apartment_List_Rent_Estimates_State_2021_4.csv" type="V_String" />
+            <Field name="1/31/2019" size="254" source="File: C:\Users\audei\Documents\Tableau\Apartment_List_Rent_Estimates_State_2021_4.csv" type="V_String" />
+            <Field name="2/28/2019" size="254" source="File: C:\Users\audei\Documents\Tableau\Apartment_List_Rent_Estimates_State_2021_4.csv" type="V_String" />
+            <Field name="3/31/2019" size="254" source="File: C:\Users\audei\Documents\Tableau\Apartment_List_Rent_Estimates_State_2021_4.csv" type="V_String" />
+            <Field name="4/30/2019" size="254" source="File: C:\Users\audei\Documents\Tableau\Apartment_List_Rent_Estimates_State_2021_4.csv" type="V_String" />
+            <Field name="5/31/2019" size="254" source="File: C:\Users\audei\Documents\Tableau\Apartment_List_Rent_Estimates_State_2021_4.csv" type="V_String" />
+            <Field name="6/30/2019" size="254" source="File: C:\Users\audei\Documents\Tableau\Apartment_List_Rent_Estimates_State_2021_4.csv" type="V_String" />
+            <Field name="7/31/2019" size="254" source="File: C:\Users\audei\Documents\Tableau\Apartment_List_Rent_Estimates_State_2021_4.csv" type="V_String" />
+            <Field name="8/31/2019" size="254" source="File: C:\Users\audei\Documents\Tableau\Apartment_List_Rent_Estimates_State_2021_4.csv" type="V_String" />
+            <Field name="9/30/2019" size="254" source="File: C:\Users\audei\Documents\Tableau\Apartment_List_Rent_Estimates_State_2021_4.csv" type="V_String" />
+            <Field name="10/31/2019" size="254" source="File: C:\Users\audei\Documents\Tableau\Apartment_List_Rent_Estimates_State_2021_4.csv" type="V_String" />
+            <Field name="11/30/2019" size="254" source="File: C:\Users\audei\Documents\Tableau\Apartment_List_Rent_Estimates_State_2021_4.csv" type="V_String" />
+            <Field name="12/31/2019" size="254" source="File: C:\Users\audei\Documents\Tableau\Apartment_List_Rent_Estimates_State_2021_4.csv" type="V_String" />
+            <Field name="2020_01" size="254" source="File: C:\Users\audei\Documents\Tableau\Apartment_List_Rent_Estimates_State_2021_4.csv" type="V_String" />
+            <Field name="2020_02" size="254" source="File: C:\Users\audei\Documents\Tableau\Apartment_List_Rent_Estimates_State_2021_4.csv" type="V_String" />
+            <Field name="2020_03" size="254" source="File: C:\Users\audei\Documents\Tableau\Apartment_List_Rent_Estimates_State_2021_4.csv" type="V_String" />
+            <Field name="2020_04" size="254" source="File: C:\Users\audei\Documents\Tableau\Apartment_List_Rent_Estimates_State_2021_4.csv" type="V_String" />
+            <Field name="2020_05" size="254" source="File: C:\Users\audei\Documents\Tableau\Apartment_List_Rent_Estimates_State_2021_4.csv" type="V_String" />
+            <Field name="2020_06" size="254" source="File: C:\Users\audei\Documents\Tableau\Apartment_List_Rent_Estimates_State_2021_4.csv" type="V_String" />
+            <Field name="2020_07" size="254" source="File: C:\Users\audei\Documents\Tableau\Apartment_List_Rent_Estimates_State_2021_4.csv" type="V_String" />
+            <Field name="2020_08" size="254" source="File: C:\Users\audei\Documents\Tableau\Apartment_List_Rent_Estimates_State_2021_4.csv" type="V_String" />
+            <Field name="2020_09" size="254" source="File: C:\Users\audei\Documents\Tableau\Apartment_List_Rent_Estimates_State_2021_4.csv" type="V_String" />
+            <Field name="2020_10" size="254" source="File: C:\Users\audei\Documents\Tableau\Apartment_List_Rent_Estimates_State_2021_4.csv" type="V_String" />
+            <Field name="2020_11" size="254" source="File: C:\Users\audei\Documents\Tableau\Apartment_List_Rent_Estimates_State_2021_4.csv" type="V_String" />
+            <Field name="2020_12" size="254" source="File: C:\Users\audei\Documents\Tableau\Apartment_List_Rent_Estimates_State_2021_4.csv" type="V_String" />
+            <Field name="2021_01" size="254" source="File: C:\Users\audei\Documents\Tableau\Apartment_List_Rent_Estimates_State_2021_4.csv" type="V_String" />
+            <Field name="2021_02" size="254" source="File: C:\Users\audei\Documents\Tableau\Apartment_List_Rent_Estimates_State_2021_4.csv" type="V_String" />
+            <Field name="2021_03" size="254" source="File: C:\Users\audei\Documents\Tableau\Apartment_List_Rent_Estimates_State_2021_4.csv" type="V_String" />
+            <Field name="2021_04" size="254" source="File: C:\Users\audei\Documents\Tableau\Apartment_List_Rent_Estimates_State_2021_4.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="198" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="FIPS_Code" selected="False" />
+            <SelectField field="Population" selected="False" />
+            <SelectField field="2020_01" selected="False" />
+            <SelectField field="2020_02" selected="False" />
+            <SelectField field="2020_03" selected="False" />
+            <SelectField field="2020_04" selected="False" />
+            <SelectField field="2020_05" selected="False" />
+            <SelectField field="2020_06" selected="False" />
+            <SelectField field="2020_07" selected="False" />
+            <SelectField field="2020_08" selected="False" />
+            <SelectField field="2020_09" selected="False" />
+            <SelectField field="2020_10" selected="False" />
+            <SelectField field="2020_11" selected="False" />
+            <SelectField field="2020_12" selected="False" />
+            <SelectField field="2021_01" selected="False" />
+            <SelectField field="2021_02" selected="False" />
+            <SelectField field="2021_03" selected="False" />
+            <SelectField field="2021_04" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="282" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields>
+            <Field field="State_Name" />
+            <Field field="Bedroom_Size" />
+          </KeyFields>
+          <DataFields>
+            <Field field="State_Name" selected="False" />
+            <Field field="Bedroom_Size" selected="False" />
+            <Field field="2017_01" selected="True" />
+            <Field field="2017_02" selected="True" />
+            <Field field="2017_03" selected="True" />
+            <Field field="2017_04" selected="True" />
+            <Field field="2017_05" selected="True" />
+            <Field field="2017_06" selected="True" />
+            <Field field="2017_07" selected="True" />
+            <Field field="2017_08" selected="True" />
+            <Field field="2017_09" selected="True" />
+            <Field field="2017_10" selected="True" />
+            <Field field="2017_11" selected="True" />
+            <Field field="2017_12" selected="True" />
+            <Field field="2018_01" selected="True" />
+            <Field field="2018_02" selected="True" />
+            <Field field="2018_03" selected="True" />
+            <Field field="2018_04" selected="True" />
+            <Field field="2018_05" selected="True" />
+            <Field field="2018_06" selected="True" />
+            <Field field="2018_07" selected="True" />
+            <Field field="2018_08" selected="True" />
+            <Field field="2018_09" selected="True" />
+            <Field field="2018_10" selected="True" />
+            <Field field="2018_11" selected="True" />
+            <Field field="2018_12" selected="True" />
+            <Field field="2019_01" selected="True" />
+            <Field field="2019_02" selected="True" />
+            <Field field="2019_03" selected="True" />
+            <Field field="2019_04" selected="True" />
+            <Field field="2019_05" selected="True" />
+            <Field field="2019_06" selected="True" />
+            <Field field="2019_07" selected="True" />
+            <Field field="2019_08" selected="True" />
+            <Field field="2019_09" selected="True" />
+            <Field field="2019_10" selected="True" />
+            <Field field="2019_11" selected="True" />
+            <Field field="2019_12" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="390" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Name" selected="True" rename="Date" />
+            <SelectField field="Value" selected="True" rename="Price" type="Int64" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="114" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\audei\Documents\Capstone 2\MinimumWage.xlsx|||`MinWage$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>MinimumWage.xlsx
+Query=`MinWage$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Year" size="255" source="File: C:\Users\audei\Documents\Capstone 2\MinimumWage.xlsx|||`MinWage$`" type="V_String" />
+            <Field name="State" size="255" source="File: C:\Users\audei\Documents\Capstone 2\MinimumWage.xlsx|||`MinWage$`" type="V_String" />
+            <Field name="Region" size="255" source="File: C:\Users\audei\Documents\Capstone 2\MinimumWage.xlsx|||`MinWage$`" type="V_String" />
+            <Field name="State Min. Wage" size="255" source="File: C:\Users\audei\Documents\Capstone 2\MinimumWage.xlsx|||`MinWage$`" type="V_String" />
+            <Field name="Fed. Min Wage" size="255" source="File: C:\Users\audei\Documents\Capstone 2\MinimumWage.xlsx|||`MinWage$`" type="V_String" />
+            <Field name="Eff. Min.Wage" size="255" source="File: C:\Users\audei\Documents\Capstone 2\MinimumWage.xlsx|||`MinWage$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="774" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="False" />
+          <UpdateField_Name>Bedroom_Size</UpdateField_Name>
+          <CreateField_Name>Hours for Rent</CreateField_Name>
+          <CreateField_Type>Int32</CreateField_Type>
+          <CreateField_Size>4</CreateField_Size>
+          <OtherRows>Empty</OtherRows>
+          <NumRows value="1" />
+          <Expression>CEIL([Price]/[Eff. Min.Wage])</Expression>
+          <GroupByFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>CEIL([Price]/[Eff. Min.Wage])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="558" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="State Min. Wage" selected="True" type="Int64" size="8" />
+            <SelectField field="Fed. Min Wage" selected="True" type="Int64" size="8" />
+            <SelectField field="Eff. Min.Wage" selected="True" type="Int64" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="498" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Date</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>Date</RootName>
+          <Delimeters value="/" />
+          <NumFields value="3" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="678" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Date3" />
+            <Field field="State_Name" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Year" />
+            <Field field="State" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="882" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="State_Name" selected="True" />
+            <SelectField field="Region" selected="True" />
+            <SelectField field="Bedroom_Size" selected="True" />
+            <SelectField field="Date" selected="True" />
+            <SelectField field="Price" selected="True" />
+            <SelectField field="Date1" selected="False" />
+            <SelectField field="Date2" selected="False" />
+            <SelectField field="Date3" selected="False" />
+            <SelectField field="Year" selected="False" />
+            <SelectField field="State" selected="False" />
+            <SelectField field="State Min. Wage" selected="True" />
+            <SelectField field="Fed. Min Wage" selected="True" />
+            <SelectField field="Eff. Min.Wage" selected="True" />
+            <SelectField field="Hours for Rent" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="978" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">C:\Users\audei\Documents\Capstone 2\RentHours.xlsx|||RentHours</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <SkipFieldNames>False</SkipFieldNames>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>RentHours.xlsx
+Query=RentHours</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="678" y="198" width="312" height="60" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Used the multi row formula to calculate how many hours on min wage someone needs to work to afford rent. Then used select to rename fields</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="330" y="258" width="100" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Input the minimum wage file</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="126" y="6" width="348" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Cleaned up the data by selecting the wanted rows and separating the date to have a better joining with the minimum wage data</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="15" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="15" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Join" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>MinWageRentPrice</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
